@@ -6,6 +6,10 @@ body{
     grid-template-columns: 100px 100px 100px 100px 100px;
     grid-template-rows: 100px 100px 100px 100px 100px;
 }
+h1{
+    color: red;
+    text-align: center;
+}
 .active{
     background-color: #ff0000;
     color: #ffffff;
@@ -61,6 +65,8 @@ ul {
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 10;
+    justify-content: center;
+    margin: auto;
 
   }
   .div2{
@@ -90,4 +96,69 @@ ul {
     grid-column-end: 10;
     padding-left: 100px;
 
+  } 
+  .div6{
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  } 
+.div7{
+    grid-row-start: 11;
+    grid-row-end: 12;
+    grid-column-start: 1;
+    grid-column-end:5;
+}
+.div8{
+    grid-row-start: 11;
+    grid-row-end: 12;
+    grid-column-start: 3;
+    grid-column-end: 8;
+    padding-left: 100px;
+  
+}
+.div9{
+    grid-row-start: 10;
+    grid-row-end: 12;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    justify-content: center;
+    margin: auto; 
+}
+.div10{
+    grid-row-start: 13;
+    grid-row-end: 15;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #ffffff;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
   }  
+ 
