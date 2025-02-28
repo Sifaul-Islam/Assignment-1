@@ -1,6 +1,31 @@
 body{
     background-color: black;
 }
+
+body {
+    font-family: 'Roboto', sans-serif; /* Default font */
+}
+.fancy-text {
+    font-family: 'Pacifico', cursive; /* Second font */
+}
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('fonts/Font1.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'CustomFont2';
+    src: url('fonts/Font2.woff2') format('woff2');
+}
+
+body {
+    font-family: 'CustomFont1', sans-serif;
+}
+
+.fancy-text {
+    font-family: 'CustomFont2', serif;
+}
+
 .container{
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px;
